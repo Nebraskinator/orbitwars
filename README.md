@@ -57,8 +57,7 @@ if the source committed its garrison to the target ("full send"):
 The key design decision is that the edge already encodes the *consequence* of a
 move, not just the raw geometry. The model isn't asked to learn intercept math or
 exact-takeover arithmetic; that's resolved deterministically in the observation
-and in the action interpreter. The network's job is the strategic one — given
-that I *can* take this planet in N turns, *should* I.
+and in the action interpreter.
 
 ## 2. Model architecture — an Evoformer for planets
 
