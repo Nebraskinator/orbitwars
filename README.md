@@ -50,7 +50,7 @@ if the source committed its garrison to the target ("full send"):
   **blocked** flag for when no legal trajectory exists.
 - **Outcome of the full send** — most importantly a `can_takeover` flag: would
   sending everything from the source actually flip the target, given the target's
-  defenders plus the production it accrues over the flight time?.
+  defenders plus the production it accrues over the flight time?
 - **Relational owner features** — source owner and target owner slots, which let
   the edge express same-owner vs. different-owner cheaply.
 
